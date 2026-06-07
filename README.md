@@ -24,9 +24,9 @@ pip install -r requirements.txt
 配置环境变量：
 touch .env
 设置下面三个环境变量
-# DEEPSEEK_API_KEY
-# DEEPSEEK_BASE_URL
-# ZHIPU_API_KEY
+- DEEPSEEK_API_KEY
+- DEEPSEEK_BASE_URL
+- ZHIPU_API_KEY
 
 启动服务：
 uvicorn main:app --reload
